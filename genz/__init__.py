@@ -1,4 +1,5 @@
 from .genzfun import *
+from .gfunction import *
 
 __all__ = [
         "continuous",
@@ -6,5 +7,6 @@ __all__ = [
         "discontinuous",
         "gaussian_peak",
         "oscillatory",
-        "product_peak"
+        "product_peak",
+        "g_function"
 ]
